@@ -1,0 +1,18 @@
+CONTROL:
+sufficient:
+	si és SUCCESS plega, i torna OK si els required anteriors eren ok
+	si és FAIL s'ignora (continua avaluant)
+
+required 'tenir pasta'
+	sufficient 'ser simpatic'
+
+requisite
+	si és FAIL plega retornant ERROR
+	si és SUCCESS (+1) continua
+
+required
+	si és FAIL acabarà tornant ERROR, però continua avaluant per 'disimular'
+	si és SUCCESS (+1) continua
+
+optional
+	s'ignora a no ser que sigui l'únic mòdul
