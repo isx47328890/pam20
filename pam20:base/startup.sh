@@ -8,13 +8,13 @@ rm /etc/login.defs
 cp /opt/docker/login.defs /etc/login.defs
 # Add users
 
-users="pere pau anna"
+users="unix01 unix02 unix03"
 
 for user in $users
-  do
-    useradd $user && echo "OK $user" 
-    # Add passwords
-    echo "$user" | passwd --stdin $user &> /dev/null && echo "OK password $user"
-  done
+do
+  useradd $user && echo "OK $user" 
+  # Add passwords
+  echo "$user" | passwd --stdin $user &> /dev/null && echo "OK password $user"
+done
 #----
 /bin/bash
