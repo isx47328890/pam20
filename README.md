@@ -1,5 +1,3 @@
-![alt text][logo]
-
 ## @edt ASIX M06-ASO
 ### Curs 2020 - 2021
 ### Mark Santiago
@@ -36,3 +34,4 @@ L'autenticació es configura al *system-auth*.
 [Docker hub de isx47328890]: https://hub.docker.com/r/isx47328890/pam20
 [GitHub de isx47328890]: https://github.com/isx47328890/pam20
 [GitLab de isx47328890]: https://gitlab.com/isx47328890/pam20
+
